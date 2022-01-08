@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 23px;
+}
+
+/* NAVBAR  CSS*/
+#nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+#nav a {
+  margin-right: 25px;
+  text-decoration: none;
+  color: #5e5e5e;
+}
+#nav a.navtext {
+  padding-top: 8px;
+}
+#nav a.topimage {
+  margin-top: 3px;
+  width: 40px;
+  height: 40px;
+  background-color: grey;
+  border-radius: 30px;
+}
+
+/* MIDDLE CSS */
+#middle {
+  margin-top: 130px;
+}
+#logo {
+  text-align: center;
+}
+#searchbarcontainer {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+#searchbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  outline: 0;
+  width: 500px;
+  border-radius: 20px;
+  border: 2px solid #c0bfbf;
+}
+#searchbar:hover {
+  box-shadow: 0 0 10px 2px rgb(199, 199, 199);
+}
+#buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.button {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #3a3939;
+  cursor: pointer;
+  background: #c4c2c2;
+  border-radius: 30px;
+  border: 2px solid transparent;
+}
+.button:hover {
+  box-shadow: 0 0 2px 1px #c4c2c2;
+}
